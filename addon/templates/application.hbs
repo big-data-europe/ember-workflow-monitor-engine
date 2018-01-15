@@ -1,0 +1,21 @@
+<div class="ember-pipeline-monitor-engine">
+  <div class="navbar">
+    {{#md-navbar name='BDE Workflow Monitor' homeRoute='pipelines'}}
+      {{#link-to 'pipelines' tagName='li'}}
+        {{link-to 'Workflows' 'pipelines'}}
+      {{/link-to}}
+    {{/md-navbar}}
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        {{outlet}}
+      </div>
+    </div>
+  </div>
+
+  {{!-- ember-cli-materialize modal container --}}
+  {{md-modal-container}}
+
+</div>

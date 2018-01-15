@@ -1,5 +1,5 @@
 {
-  "name": "pipeline-monitor",
+  "name": "ember-pipeline-monitor-engine",
   "version": "0.3.0",
   "description": "Application to monitor BDE pipelines",
   "private": true,
@@ -7,12 +7,12 @@
     "doc": "doc",
     "test": "tests"
   },
+  "repository": "",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember test"
   },
-  "repository": "",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -20,36 +20,46 @@
   "license": "MIT",
   "devDependencies": {
     "adm-zip": "^0.4.7",
-    "broccoli-asset-rev": "^2.4.2",
+    "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "0.7.1",
-    "ember-cli": "2.5.0",
-    "ember-cli-app-version": "^1.0.0",
-    "ember-cli-babel": "^5.1.6",
-    "ember-cli-coffeescript": "1.13.2",
-    "ember-cli-dependency-checker": "^1.2.0",
-    "ember-cli-htmlbars": "^1.0.3",
-    "ember-cli-htmlbars-inline-precompile": "^0.3.1",
-    "ember-cli-inject-live-reload": "^1.4.0",
-    "ember-cli-jshint": "^1.0.0",
-    "ember-cli-materialize": "0.19.5",
-    "ember-cli-qunit": "^1.4.0",
+    "ember-cli": "~2.14.2",
+    "ember-cli-app-version": "^3.0.0",
+    "ember-cli-dependency-checker": "^1.3.0",
+    "ember-cli-htmlbars-inline-precompile": "^0.4.3",
+    "ember-cli-inject-live-reload": "^1.4.1",
+    "ember-cli-qunit": "^4.0.0",
     "ember-cli-release": "1.0.0-beta.1",
-    "ember-cli-sass": "git://github.com/mike-north/ember-cli-sass.git#8ceb57d41f5774e8ececb5d1f05454449c19000c",
+    "ember-cli-sass": "7.0.0",
+    "ember-cli-shims": "^1.1.0",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^1.2.0",
+    "ember-cli-update": "0.6.4",
     "ember-composability": "0.3.2",
-    "ember-data": "^2.5.0",
+    "ember-concurrency": "^0.8.10",
+    "ember-data": "~2.14.9",
     "ember-data-has-many-query": "0.1.1",
-    "ember-export-application-global": "^1.0.5",
+    "ember-engines": "^0.5.8",
+    "ember-export-application-global": "^2.0.0",
+    "ember-load-initializers": "^1.0.0",
+    "ember-material-design-icons-shim": "0.1.9",
+    "ember-materialize-shim": "0.2.3",
+    "ember-source": "~2.14.1",
+    "ember-resolver": "^4.0.0",
+    "loader.js": "^4.0.1"
+  },
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "ember-cli-babel": "^6.3.0",
+    "ember-cli-htmlbars": "^2.0.1",
+    "ember-cli-materialize": "0.22.0-beta.0",
+    "ember-composability": "0.3.7",
     "ember-keyboard": "1.0.3",
-    "ember-load-initializers": "^0.5.1",
-    "ember-material-design-icons-shim": "0.1.4",
-    "ember-materialize-shim": "0.1.6",
-    "ember-modal-dialog": "0.8.3",
+    "ember-modal-dialog": "0.8.8",
     "ember-new-computed": "1.0.3",
     "ember-radio-button": "1.0.7",
-    "ember-resolver": "^2.0.3",
-    "ember-truth-helpers": "1.2.0",
-    "loader.js": "^4.0.1"
-  }
+    "ember-truth-helpers": "1.2.0"
+  },
+  "keywords": [
+    "ember-addon"
+  ]
 }
