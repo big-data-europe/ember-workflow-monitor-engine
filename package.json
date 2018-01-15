@@ -1,6 +1,6 @@
 {
   "name": "ember-pipeline-monitor-engine",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Application to monitor BDE pipelines",
   "private": true,
   "directories": {
